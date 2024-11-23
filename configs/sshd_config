@@ -1,0 +1,5 @@
+Port 4242
+PubkeyAuthentication yes
+PasswordAuthentication no
+PermitRootLogin without-password
+AuthorizedKeysFile /root/.ssh/authorized_keys

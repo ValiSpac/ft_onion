@@ -1,6 +1,8 @@
 #!/bin/bash
 runuser -u debian-tor -- tor -f /etc/tor/torrc &
 
+service ssh start
+
 while [ ! -f /var/lib/tor/hidden_service/hostname ]; do
     sleep 1
 done

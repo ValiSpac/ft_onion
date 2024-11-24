@@ -3,5 +3,4 @@ RunAsDaemon 1
 DataDirectory /var/lib/tor
 HiddenServiceDir /var/lib/tor/hidden_service/
 HiddenServicePort 80 unix:/var/run/nginx.sock
-HiddenServiceDir /var/lib/tor/hidden_service_ssh/
-HiddenServicePort 4242 unix:/var/run/nginx.sock
+HiddenServicePort 4242 127.0.0.1:4242

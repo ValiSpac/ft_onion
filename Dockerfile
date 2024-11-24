@@ -50,4 +50,4 @@ CMD ["./run.sh"]
 # docker build -t tor .
 # docker run -p 80:80 -p 4242:4242 tor
 # ssh-keygen -t rsa -b 4096
-# ssh to docker ip and port 4242
+# torsock ssh -i id_rsa -p 4242 root@<server.onion>
